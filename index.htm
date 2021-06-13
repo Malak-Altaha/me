@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link rel="stylesheet" href="./css/sporto1.css">
+    <link rel="stylesheet" href="./css/sporto2.css">
+    <link rel="stylesheet" href="./css/sporto3.css">
+    <link rel="stylesheet" href="./css/sporto4.css">
+    <link rel="stylesheet" href="./css/sporto5.css">
+    <link rel="stylesheet" href="./css/sporto6.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+
+</head>
+<body>
+    <div id="navbar">
+        <button class="nbBtn"><span class="s6">s</span> Intro</button>
+        <button class="nbBtn"><span class="s6">s</span> Story</button>
+        <button class="nbBtn"><span class="s6">s</span> Contact</button>
+    </div>
+    <div id="nbmarginer"></div>
+    <div id="nbback">
+        <span style="font-family: cov; max-height: 0.4in; margin: 0px; line-height: 0.4in; font-size: 25px; display: block;">L</span>
+        Hire
+        <div id="wow">
+            <span style="margin: 0px; font-family: sporto5; font-size: 100px; display: block;
+                        background: linear-gradient(rgb(243, 177, 55), rgb(243, 177, 55), cornflowerblue); color: transparent; background-clip: text;">$</span>
+            Email: www.malakaltaha71@gmail.com <br>
+            Phone: +963-945-060-250
+            <div id="hireAction">
+                <button class="btn">call</button>
+                <button class="btn">google me</button>
+            </div>
+            <div id="social">
+                <span  style="color: white;" class="in">Y</span>
+                <span  style="color: white;" class="twitter">%</span>
+                <span  style="color: white;" class="facebook">2</span>
+                <span  style="color: white;" class="github">}</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="headDiv">
+        <h1 style="font-size: 48px; margin: 5px;">
+            Malak Altaha
+        </h1>
+        <h3 style="margin: 5px;">
+            Mechanical Engineering: Creating and Designing useful things to make people's lives easier ,and simpler.
+        </h3>
+        <div class="card" id="headcard">
+            <div class="cardImgHolder">
+                <!--<img src="./img/images (35).jpg" style="filter: sepia(70%) brightness(70%)" alt="">-->
+                <img src="./IMG-20210612-WA0001.jpg" alt="">
+                <div id="summary"></div>
+            </div>
+            <div class="cardTitle">
+                <span style="font-family: cov; font-size: 22px; color: cornflowerblue;">U</span> summary
+            </div>
+            <div class="cardContent">
+                I am a third year student in the faculty of Mechanical Engineering
+                ,and I am looking for new training opportunities in this field. <br>
+                I am a smart ,hard working ,and professional. <br>
+                First, I got first rank in my college in the first year
+                and the second year in Deir ez-Zor in 2019 and 2020. <br>
+                Additionally ,I translated and summerized * Memory illusions book * in Deir ez-Zor in 2019. <br>
+                Finally ,I started studying online after endless attempts in my own to get 
+                a scholarship in Coursera &trade;
+                and got many certificates in Deir ez-Zor in 2021. <br>
+                My skills include Writing articles ,scientific research ,and Turkish (advanced).
+            </div>
+            <div id="social">
+                <span class="in">Y</span>
+                <span class="twitter">%</span>
+                <span class="facebook">2</span>
+                <span class="github">}</span>
+                <span class="heart" onclick="msg(true)">O</span>
+            </div>
+            <div class="cardAction">
+                <button class="btn">Review my resume</button>
+                <button class="btn">Review my CV</button>
+            </div>
+        </div>
+    </div>
+    <div id="lovemsg">
+        Thanks to the person who became my life... <br>
+        i love you <span class="tulip">A</span> ... <br>
+        <button class="btn" style="float: right; margin-right: 20%;" onclick="msg(false)">Ok...</button>
+    </div>
+</body>
+</html>
+
+<script>
+    document.getElementById('lovemsg').style.display = 'none';
+    function msg(state){
+        document.getElementById('lovemsg').style.display = state ? "block" : "none";
+    }
+</script>
